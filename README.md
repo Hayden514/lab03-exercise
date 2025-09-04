@@ -69,28 +69,43 @@ index da07420..ad50a19 100644
 
 - 1 file changed, 90 insertions(+)
 
-````
+```
 
 ### 1.6. Reflection
 
 We've learned 6 git subcommands now. Describe each of them in your own words in the section below:
 
-- git init       This is how you add Git to your project.
-- git status     It lets you see the current state of your files.
-- git add         This  is how you start tracking individual files.
-- git commit      It creates a new commit.
-- git log          It displays the commit history of your repository.
-- git diff          It shows the differences between various states of your repository.
+```
+
+- git init This is how you add Git to your project.
+- git status It lets you see the current state of your files.
+- git add This is how you start tracking individual files.
+- git commit It creates a new commit.
+- git log It displays the commit history of your repository.
+- git diff It shows the differences between various states of your repository.
+
+```
 
 ### 1.7. Practice: Find All Duplicates (Java)
 
 Make sure you implement the `FindDuplicates.java` class as specified in the instructions (with the nested loops implementation).
+
+```
+
+Yep
+
+```
 
 ## Part 2: GitHub
 
 ### 2.1. Practice: Find All Duplicates (Python)
 
 Make sure you implement the `find_duplicates.py` file as specified in the instructions (with the nested loops implementation).
+```
+
+Yep
+
+````
 
 ## Part 3: Branching
 
