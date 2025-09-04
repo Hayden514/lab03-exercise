@@ -29,7 +29,8 @@ nothing to commit, working tree clean
 ### 1.3. Paste the output of the state of your repository after committing your README.md file
 
 ```
-# paste code here
+[main e9252d9] add README.md to the repository
+ 1 file changed, 90 insertions(+)
 
 
 ```
@@ -37,7 +38,17 @@ nothing to commit, working tree clean
 ### 1.4. Copy your `git log` output
 
 ```
-# paste code here
+commit e9252d98b042ba46eda63ab56190ccdf006b328f (HEAD -> main)
+Author: Hayden514 <zchen@unca.edu>
+Date:   Thu Sep 4 11:11:27 2025 -0400
+
+    add README.md to the repository
+
+commit be9ca01fa888e5253fae2d66b7b28535767b70ab
+Author: Hayden514 <zchen@unca.edu>
+Date:   Thu Sep 4 10:59:44 2025 -0400
+
+    add README.md to the repository
 
 
 ```
@@ -45,21 +56,31 @@ nothing to commit, working tree clean
 ### 1.5. Copy your `git diff` output
 
 ```
-# paste code here
-
+diff --git a/README.md b/README.md
+index da07420..ad50a19 100644
+--- a/README.md
++++ b/README.md
+@@ -29,7 +29,8 @@ nothing to commit, working tree clean
+ ### 1.3. Paste the output of the state of your repository after committing your README.md file
 
 ```
+
+-# paste code here +[main e9252d9] add README.md to the repository
+
+- 1 file changed, 90 insertions(+)
+
+````
 
 ### 1.6. Reflection
 
 We've learned 6 git subcommands now. Describe each of them in your own words in the section below:
 
-- git init
-- git status
-- git add
-- git commit
-- git log
-- git diff
+- git init       This is how you add Git to your project.
+- git status     It lets you see the current state of your files.
+- git add         This  is how you start tracking individual files.
+- git commit      It creates a new commit.
+- git log          It displays the commit history of your repository.
+- git diff          It shows the differences between various states of your repository.
 
 ### 1.7. Practice: Find All Duplicates (Java)
 
@@ -84,7 +105,7 @@ Please make sure that the new repo that you made today on GitHub is public, and 
 ```bash
 # paste your new repo link here...
 
-```
+````
 
 ### 3.3. What do the three "Merge pull request" options mean?
 
