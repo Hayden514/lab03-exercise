@@ -103,10 +103,28 @@ Implement the more efficient Version of the "Find Duplicates" problem using a di
 Please make sure that the new repo that you made today on GitHub is public, and paste a link to it below.
 
 ```bash
-# paste your new repo link here...
+https://github.com/Hayden514/lab03-exercise
 
 ````
 
 ### 3.3. What do the three "Merge pull request" options mean?
 
-Describe each of them in your own words.
+Describe each of them in your own words.### 3.3. What do the three "Merge pull request" options mean?
+
+1. **Create a merge commit**:  
+   This option merges the feature branch into the main branch while keeping all the commits from the feature branch.  
+   Git creates an extra "merge commit" to show that a merge occurred.
+
+   - Advantage: preserves full history of the branch.
+   - Disadvantage: can make the commit history more complex.
+
+2. **Squash and merge**:  
+   This option combines all commits from the feature branch into a single commit and merges it into the main branch.
+
+   - Advantage: keeps the main branch history clean and simple.
+   - Disadvantage: loses the individual commits from the feature branch.
+
+3. **Rebase and merge**:  
+   This option takes the commits from the feature branch and applies them on top of the main branch, creating a linear history without an extra merge commit.
+   - Advantage: produces a linear and clean commit history.
+   - Disadvantage: rewrites commit history, which may be risky if others already depend on the branch.
